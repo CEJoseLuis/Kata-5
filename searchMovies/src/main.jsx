@@ -12,7 +12,11 @@ import Paths from './routes'
 
 // pd: borrar el StrictMode antes de desplegar
 createRoot(document.getElementById('root')).render(
-  <BrowserRouter>
-    <App />
-  </BrowserRouter>
+  // BrowserRouter, cuando un componente de una libreria encierra una aplicacion es para darle contexto, encapsularlo
+  <>
+    {/* <App /> */}
+    <BrowserRouter>
+      <Paths />
+    </BrowserRouter>
+  </>
 )

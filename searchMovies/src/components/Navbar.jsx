@@ -1,4 +1,4 @@
-import { NavLink } from 'react-router-dom'
+import { NavLink } from 'react-router-dom' // Detecta la ruta elegida y le coloca clase Acive para resaltarla en el menu
 
 export function Navbar () {
   return (
@@ -10,6 +10,7 @@ export function Navbar () {
         <div className='collapse navbar-collapse'>
           <ul className='navbar-nav ms-auto mb-2 mb-lg-0'>
             <li className='nav-item'>
+              {/* NavLink No recibe href recibe to */}
               <NavLink className='nav-link' to='/'>
                 Home
               </NavLink>

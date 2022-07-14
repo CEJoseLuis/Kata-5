@@ -1,3 +1,4 @@
+// Recibir la data de forma loca y no hacer un fetching
 export const products = [
   {
     id: 1,
