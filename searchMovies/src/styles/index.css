@@ -5,5 +5,19 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(111, 164, 187);
+  color: white;
 }
-
+ul{
+  list-style: none;
+  padding-inline-start: 0;
+}
+.line-clamp{
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;  
+  overflow: hidden;
+}
+.card-img-top{
+  object-fit: cover;
+}
